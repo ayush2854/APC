@@ -1,0 +1,8 @@
+t1 = tuple(input("Enter tuple input:"))
+t2 = (1,'a',2)
+print(t1)
+print(t2)
+print(t2[0])
+print(t2[-1])
+print(t2.index(2))
+print(t2.count(2))

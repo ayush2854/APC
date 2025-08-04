@@ -1,0 +1,7 @@
+t1 = ("age",19,"gender")
+l1 = list(t1)
+l1.append("male")
+t2 = tuple(l1)
+print(l1)
+print(t1)
+print(t2)

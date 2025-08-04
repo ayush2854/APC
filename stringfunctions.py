@@ -1,0 +1,13 @@
+str = "hEllo friends"
+print(str.upper())
+print(str.lower())
+print(len(str))
+print(str.count("l"))
+print(str.capitalize())
+print(str.endswith('s'))
+print(str.index('f'))
+print(str.isalpha())
+print(str.isdigit())
+print(str.isalnum())
+print(str.split())
+print(str.swapcase())
