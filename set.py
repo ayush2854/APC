@@ -1,0 +1,17 @@
+Days = {"Monday", "Tuesday", "Wednesday"}
+Months = {"January","February","March"}
+print(Days)
+Days.add("Thursday")
+print(Days)
+Days.remove("Monday")
+print(Days)
+print(Days.union(Months))
+Days.update("Friday")
+print(Days)
+print(Days.intersection(Months))
+print(Days.issubset(Months))
+print(Days.issuperset(Months))
+Months.pop()
+print(Months)
+print(Months.symmetric_difference(Days))
+print(Days)
