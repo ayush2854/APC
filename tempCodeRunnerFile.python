@@ -1,0 +1,8 @@
+with open ("modes.txt","r") as file:
+    print(file.read())
+
+with open("modes.txt","w") as file:
+    file.write("This is a text written with write method")
+
+with open("modes.txt","a") as file:
+    file.write("\nThis is the text written with append method")

@@ -1,0 +1,3 @@
+
+This is the text written with w+ method 
+This is the text written with a+ method
