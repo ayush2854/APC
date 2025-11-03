@@ -1,0 +1,42 @@
+import numpy as np
+
+# 1. array() - Create a NumPy array
+arr = np.array([1, 2, 3, 4, 5])
+print("1. array():", arr)
+
+# 2. arange() - Create array with range of values
+arr_range = np.arange(0, 10, 2)
+print("2. arange():", arr_range)
+
+# 3. zeros() - Create array of zeros
+arr_zeros = np.zeros((2, 3))
+print("3. zeros():\n", arr_zeros)
+
+# 4. ones() - Create array of ones
+arr_ones = np.ones((3, 2))
+print("4. ones():\n", arr_ones)
+
+# 5. reshape() - Change shape of array
+arr2 = np.arange(9).reshape(3, 3)
+print("5. reshape():\n", arr2)
+
+# 6. linspace() - Generate linearly spaced values
+arr_lin = np.linspace(0, 1, 5)
+print("6. linspace():", arr_lin)
+
+# 7. sum() - Sum of array elements
+total = np.sum(arr2)
+print("7. sum():", total)
+
+# 8. max() and min() - Largest and smallest values
+print("8. max():", np.max(arr2))
+print("   min():", np.min(arr2))
+
+# 9. mean() - Average of elements
+print("9. mean():", np.mean(arr2))
+
+# 10. dot() - Dot product of matrices
+matrix1 = np.array([[1, 2], [3, 4]])
+matrix2 = np.array([[5, 6], [7, 8]])
+dot_product = np.dot(matrix1, matrix2)
+print("10. dot():\n", dot_product)
